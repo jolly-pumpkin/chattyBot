@@ -13,11 +13,11 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 OPENAI_URL = os.getenv('OPENAI_URL')
 EMBEDDING_MODEL_NAME = os.getenv('EMBEDDING_MODEL_NAME')
 
-print("++++++Params++++")
+print("------------Params------------")
 print(OPENAI_API_KEY)
 print(OPENAI_URL)
 print(EMBEDDING_MODEL_NAME)
-
+print("------------Params------------")
 
 
 openai = OpenAI(

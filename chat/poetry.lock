@@ -1141,7 +1141,25 @@ type = "legacy"
 url = "https://nexus.corp.indeed.com/repository/pypi/simple"
 reference = "nexus"
 
+[[package]]
+name = "wikipedia-api"
+version = "0.8.1"
+description = "Python Wrapper for Wikipedia"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wikipedia_api-0.8.1.tar.gz", hash = "sha256:b31e93b3f5407c1a1ba413ed7326a05379a3c270df6cf6a211aca67a14c5658b"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[package.source]
+type = "legacy"
+url = "https://nexus.corp.indeed.com/repository/pypi/simple"
+reference = "nexus"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.13"
-content-hash = "9fcd022874aa58ea3d38aea65d1421155f6d82c7849b29e188d6adaa0386c978"
+content-hash = "b08d7f5eb1a570ab2f191d4b87ef7d37e51ec2a93783f868c8e0470193e01a10"
